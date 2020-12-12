@@ -1,0 +1,40 @@
+.link{
+    font-size: 20px;
+    padding: 10%;  
+    border-bottom: 1px solid lightgray;  
+    color: gray;
+}
+
+.kk{
+    height: 100vh;
+}
+
+@media only screen and (max-width: 700px) {
+    .link{
+        font-size: 15px;
+        padding: 5px;
+        border-bottom: none;
+    }
+
+    .kk{
+        height: auto;
+        padding: 5%;
+        margin-bottom: 2%;
+        justify-content: center;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .link{
+        font-size: 12px;
+        padding: 2px;
+        border-bottom: none;
+    }
+
+    .kk{
+        height: auto;
+        padding: 5%;
+        margin-bottom: 2%;
+        justify-content: center;
+    }
+  }
